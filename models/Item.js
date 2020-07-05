@@ -13,6 +13,6 @@ const ItemSchema = new Schema({
   },
 })
 
-// const Item = mongoose.model('item', ItemSchema)
+const Item = mongoose.model('item', ItemSchema)
 
-module.exports = Item = mongoose.model('item', ItemSchema)
+module.exports = Item
